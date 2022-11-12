@@ -1,0 +1,7 @@
+p = float(input('Qual é o preço do produto? R$'))
+# d = float(input('Qual é a porcentagem de desconto? '))
+avista = p - (p*5/100)
+parcelado = p + (p*8/100)
+print('-'*30)
+print(' Pagamento á vista:   R${:.2f} \n Pagamento Parcelado: R${:.2f} \n Em até 3x R${:.2f} '.format(avista, parcelado, parcelado/3))
+print('-'*30)

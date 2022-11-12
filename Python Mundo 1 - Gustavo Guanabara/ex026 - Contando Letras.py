@@ -1,0 +1,5 @@
+frase = str(input('Digite uma frase: ')).strip().upper()
+print('A frase digitada foi {}'.format(frase))
+print('Número de letras A: {}'.format(frase.count('A')+1))
+print('Primeiro A: Posição {}'.format(frase.find('A')+1))
+print('Último A: Posição {}'.format(frase.rfind('A')+1))
